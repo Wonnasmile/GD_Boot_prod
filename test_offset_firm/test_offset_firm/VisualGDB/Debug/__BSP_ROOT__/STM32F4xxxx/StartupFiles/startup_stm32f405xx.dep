@@ -1,0 +1,4 @@
+VisualGDB/Debug/__BSP_ROOT__/STM32F4xxxx/StartupFiles/startup_stm32f405xx.o: \
+ C:/Users/Max/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/2022.01/STM32F4xxxx/StartupFiles/startup_stm32f405xx.c \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h
+c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h:

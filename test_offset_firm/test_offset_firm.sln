@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_offset_firm", "test_offset_firm\test_offset_firm.vcxproj", "{E801C2B4-2934-41C7-B28A-9373C88E1709}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E801C2B4-2934-41C7-B28A-9373C88E1709}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{E801C2B4-2934-41C7-B28A-9373C88E1709}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{E801C2B4-2934-41C7-B28A-9373C88E1709}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{E801C2B4-2934-41C7-B28A-9373C88E1709}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4234F24B-0D23-430D-8845-901678628AE6}
+	EndGlobalSection
+EndGlobal

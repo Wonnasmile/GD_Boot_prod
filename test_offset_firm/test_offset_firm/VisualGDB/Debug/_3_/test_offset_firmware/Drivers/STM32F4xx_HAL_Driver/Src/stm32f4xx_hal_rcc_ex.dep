@@ -1,0 +1,70 @@
+VisualGDB/Debug/_3_/test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o: \
+ C:/Users/Max/Desktop/rTK/test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c \
+ C:/Users/Max/Desktop/rTK/test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.h \
+ ../../../test_offset_firmware/Core/Inc/stm32f4xx_hal_conf.h \
+ ../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+ ../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+ ../../../test_offset_firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+ ../../../test_offset_firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h \
+ ../../../test_offset_firmware/Drivers/CMSIS/Include/core_cm4.h \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\stdint.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\machine\_default_types.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\features.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\_newlib_version.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_intsup.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_stdint.h \
+ ../../../test_offset_firmware/Drivers/CMSIS/Include/cmsis_version.h \
+ ../../../test_offset_firmware/Drivers/CMSIS/Include/cmsis_compiler.h \
+ ../../../test_offset_firmware/Drivers/CMSIS/Include/cmsis_gcc.h \
+ ../../../test_offset_firmware/Drivers/CMSIS/Include/mpu_armv7.h \
+ ../../../test_offset_firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+ ../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+ ../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
+ ../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+ ../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+ ../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+ ../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+ ../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+ ../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+ ../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+ ../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+ ../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+ ../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+ ../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+ ../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+C:/Users/Max/Desktop/rTK/test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.h:
+../../../test_offset_firmware/Core/Inc/stm32f4xx_hal_conf.h:
+../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
+../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:
+../../../test_offset_firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:
+../../../test_offset_firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h:
+../../../test_offset_firmware/Drivers/CMSIS/Include/core_cm4.h:
+c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h:
+c:\sysgcc\arm-eabi\arm-none-eabi\include\stdint.h:
+c:\sysgcc\arm-eabi\arm-none-eabi\include\machine\_default_types.h:
+c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\features.h:
+c:\sysgcc\arm-eabi\arm-none-eabi\include\_newlib_version.h:
+c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_intsup.h:
+c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_stdint.h:
+../../../test_offset_firmware/Drivers/CMSIS/Include/cmsis_version.h:
+../../../test_offset_firmware/Drivers/CMSIS/Include/cmsis_compiler.h:
+../../../test_offset_firmware/Drivers/CMSIS/Include/cmsis_gcc.h:
+../../../test_offset_firmware/Drivers/CMSIS/Include/mpu_armv7.h:
+../../../test_offset_firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h:
+../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
+../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
+c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h:
+../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h:
+../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:
+../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h:
+../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h:
+../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h:
+../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h:
+../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h:
+../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:
+../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h:
+../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h:
+../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:
+../../../test_offset_firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
