@@ -212,7 +212,7 @@ int main(void)
 					f_close(&firmware);
 					//f_unlink((char*)fileInfo.fname);
 					
-					HAL_GPIO_WritePin(GPIOC, GPIO_PIN_3, GPIO_PIN_SET); // Р?РЅРґРёРєР°С‚РѕСЂ РЅР°Р№РґРµРЅРЅРѕРіРѕ С„Р°Р№Р»Р° dd
+					HAL_GPIO_WritePin(GPIOC, GPIO_PIN_3, GPIO_PIN_SET); // test
 				
 					typedef void(*pFunction)(void);
 				
