@@ -162,9 +162,9 @@ int main(void)
 		  
 				if (!strcmp(constName, tmpFileInfo))
 				{
-					// РќРµРѕР±С…РѕРґРёРјС‹Р№ С„Р°Р№Р» РЅР°Р№РґРµРЅ
+					
 			  
-					HAL_GPIO_WritePin(GPIOC, GPIO_PIN_1, GPIO_PIN_SET); // Р?РЅРґРёРєР°С‚РѕСЂ РЅР°Р№РґРµРЅРЅРѕРіРѕ С„Р°Р№Р»Р°
+					HAL_GPIO_WritePin(GPIOC, GPIO_PIN_1, GPIO_PIN_SET); 
 					
 					volatile HAL_StatusTypeDef res1 = HAL_FLASH_Unlock();
 				
@@ -177,9 +177,9 @@ int main(void)
 					FLASH_EraseInitTypeDef eraseInit;
 					uint sectorsErorr = 0;
 				
-					eraseInit.Sector = 5; // РЎС‚РёСЂР°РµРј СЃ 5-РіРѕ СЃРµРєС‚РѕСЂР°, СЌС‚Рѕ 0x08020000
-					eraseInit.TypeErase = FLASH_TYPEERASE_SECTORS; // РЎС‚РёСЂР°РµРј РїРѕ СЃРµРєС‚РѕСЂР°Рј
-					eraseInit.NbSectors = 1 + (fileInfo.fsize / 131072); // РљРѕР»РёС‡РµСЃС‚РІРѕ СЃРµРєС‚РѕСЂРѕРІ   cc
+					eraseInit.Sector = 5; 
+					eraseInit.TypeErase = FLASH_TYPEERASE_SECTORS; 
+					eraseInit.NbSectors = 1 + (fileInfo.fsize / 128000 ); // количество секторов
 				
 				
 					volatile HAL_StatusTypeDef res =  HAL_FLASHEx_Erase(&eraseInit, &sectorsErorr);
@@ -188,7 +188,7 @@ int main(void)
 					
 					f_open(&firmware, (char*)fileInfo.fname, FA_READ);
 					
-					// Р Р°СЃС€РёС„СЂРѕРІС‹РІР°С‚СЊ СЃС‚СЂРѕРєРё РїРѕ 64 Р±Р°Р№С‚Р° РїРѕРєР° СЂР°Р·РјРµСЂ С„Р°Р№Р»Р° РЅРµ СЃРѕРІРїР°РґРµС‚
+					
 					while (byteCounter < fileInfo.fsize)
 					{
 						f_read(&firmware, firmBuffer, 64, &firmBytes);							
